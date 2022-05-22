@@ -1,0 +1,15 @@
+{
+  "name": "ishuan",
+  "version": "1.0.0",
+  "description": "Check test is \"huan\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ishuan",
+    "huanth"
+  ],
+  "author": "HuanTH",
+  "license": "ISC"
+}
