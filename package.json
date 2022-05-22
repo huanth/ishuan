@@ -1,15 +1,21 @@
 {
-  "name": "ishuan",
-  "version": "1.0.0",
-  "description": "Check test is \"huan\"",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "ishuan",
-    "huanth"
-  ],
-  "author": "HuanTH",
-  "license": "ISC"
+    "name": "ishuan",
+    "version": "1.0.0",
+    "description": "Check test is \"huan\"",
+    "main": "index.js",
+    "scripts": {
+        "dev": "node_modules/webpack/bin/webpack.js --mode production --watch --progress --hide-modules",
+        "build": "node_modules/webpack/bin/webpack.js --mode production --progress --hide-modules"
+    },
+    "keywords": [
+        "ishuan",
+        "huanth"
+    ],
+    "author": "HuanTH",
+    "license": "ISC",
+    "devDependencies": {
+        "uglifyjs-webpack-plugin": "^2.2.0",
+        "webpack": "^5.72.1",
+        "webpack-cli": "^4.9.2"
+    }
 }
